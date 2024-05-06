@@ -3,6 +3,7 @@ kind: Subscription
 metadata:
   labels:
     operators.coreos.com/rhacs-operator.rhacs-operator: ''
+    app.kubernetes.io/instance: sno-operators
   name: rhacs-operator
   namespace: rhacs-operator
 spec:

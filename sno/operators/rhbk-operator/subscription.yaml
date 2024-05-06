@@ -3,6 +3,7 @@ kind: Subscription
 metadata:
   labels:
     operators.coreos.com/rhbk-operator.authentication: ''
+    app.kubernetes.io/instance: sno-operators
   name: rhbk-operator
   namespace: authentication
 spec:

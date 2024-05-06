@@ -3,6 +3,7 @@ kind: Subscription
 metadata:
   labels:
     operators.coreos.com/advanced-cluster-management.open-cluster-management: ''
+    app.kubernetes.io/instance: sno-operators
   name: advanced-cluster-management
   namespace: open-cluster-management
 spec:

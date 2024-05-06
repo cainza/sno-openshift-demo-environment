@@ -3,6 +3,7 @@ kind: Subscription
 metadata:
   labels:
     operators.coreos.com/kubevirt-hyperconverged.openshift-cnv: ''
+    app.kubernetes.io/instance: sno-operators
   name: hco-operatorhub
   namespace: openshift-cnv
 spec:
