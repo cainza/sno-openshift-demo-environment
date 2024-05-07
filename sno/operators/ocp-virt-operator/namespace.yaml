@@ -4,4 +4,4 @@ metadata:
   name: openshift-cnv
 spec:
   finalizers:
-  - kubernetes=
+  - kubernetes
