@@ -5,6 +5,7 @@ metadata:
     operators.coreos.com/lvms-operator.openshift-storage: ''
     app.kubernetes.io/instance: sno-operators
   namespace: openshift-storage
+  name: lvms-operator
 spec:
   installPlanApproval: Automatic
   name: lvms-operator
