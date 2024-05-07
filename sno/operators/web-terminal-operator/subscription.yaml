@@ -4,6 +4,8 @@ metadata:
   labels:
     app.kubernetes.io/instance: sno-operators
     operators.coreos.com/web-terminal.openshift-operators: ''
+  annotations:
+    argocd.argoproj.io/sync-wave: "2"
   name: web-terminal
   namespace: openshift-operators
 spec:

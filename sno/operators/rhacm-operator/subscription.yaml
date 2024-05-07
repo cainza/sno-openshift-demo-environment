@@ -4,6 +4,8 @@ metadata:
   labels:
     app.kubernetes.io/instance: sno-operators
     operators.coreos.com/advanced-cluster-management.open-cluster-management: ''
+  annotations:
+    argocd.argoproj.io/sync-wave: "2"
   name: advanced-cluster-management
   namespace: open-cluster-management
 spec:

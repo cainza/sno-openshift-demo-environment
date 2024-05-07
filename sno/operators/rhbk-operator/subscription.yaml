@@ -4,6 +4,8 @@ metadata:
   labels:
     app.kubernetes.io/instance: sno-operators
     operators.coreos.com/rhbk-operator.authentication: ''
+  annotations:
+    argocd.argoproj.io/sync-wave: "2"
   name: rhbk-operator
   namespace: authentication
 spec:

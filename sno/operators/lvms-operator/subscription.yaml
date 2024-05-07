@@ -4,6 +4,8 @@ metadata:
   labels:
     operators.coreos.com/lvms-operator.openshift-storage: ''
     app.kubernetes.io/instance: sno-operators
+  annotations:
+    argocd.argoproj.io/sync-wave: "2"
   namespace: openshift-storage
   name: lvms-operator
 spec:

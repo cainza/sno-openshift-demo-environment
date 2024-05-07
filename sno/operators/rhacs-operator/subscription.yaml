@@ -4,6 +4,8 @@ metadata:
   labels:
     app.kubernetes.io/instance: sno-operators
     operators.coreos.com/rhacs-operator.rhacs-operator: ''
+  annotations:
+    argocd.argoproj.io/sync-wave: "2"
   name: rhacs-operator
   namespace: rhacs-operator
 spec:
