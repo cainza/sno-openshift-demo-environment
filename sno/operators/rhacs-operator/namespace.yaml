@@ -7,3 +7,13 @@ metadata:
 spec:
   finalizers:
   - kubernetes
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: rhacs
+  annotations:
+    argocd.argoproj.io/sync-wave: "1"
+spec:
+  finalizers:
+  - kubernetes
