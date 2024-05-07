@@ -5,10 +5,14 @@ metadata:
   namespace: openshift-gitops
 spec:
   destination:
-    namespace: default
     server: 'https://kubernetes.default.svc'
   project: default
   source:
+    directory:
+      jsonnet: {}
+      recurse: true
     path: sno/operators
     repoURL: 'https://github.com/cainza/sno-openshift-demo-environment'
     targetRevision: HEAD
+  syncPolicy:
+    automated: {}
