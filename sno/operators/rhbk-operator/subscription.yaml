@@ -2,8 +2,8 @@ apiVersion: operators.coreos.com/v1alpha1
 kind: Subscription
 metadata:
   labels:
-    operators.coreos.com/rhbk-operator.authentication: ''
     app.kubernetes.io/instance: sno-operators
+    operators.coreos.com/rhbk-operator.authentication: ''
   name: rhbk-operator
   namespace: authentication
 spec:
